@@ -1,0 +1,18 @@
+.container {
+  border-radius: 20px;
+  width: 15vw;
+  height: 12vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 50%;
+}
+
+h3 {
+  color: black;
+}

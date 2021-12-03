@@ -1,0 +1,16 @@
+import { Canvas } from "react-three-fiber";
+
+const Head = () => {
+  // const headObj = useLoader(OBJLoader, "./head.obj");
+  return (
+    <Canvas>
+      <pointLight position={[0, 0, 00]} />
+      <mesh>
+        <sphereBufferGeometry />
+        <meshStandardMaterial color="hotpink" />
+      </mesh>
+    </Canvas>
+  );
+};
+
+export default Head;

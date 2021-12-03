@@ -1,13 +1,13 @@
-import './App.css';
-import MainContainer from './components/mainContainer/mainContainer';
-import Navbar from './components/navbar/navbar';
-import Top from './components/top/top';
-import About from './components/about/about';
-import Projects from './components/projects/projects';
-import Skills from './components/skills/skills';
-import Contact from './components/contact/contact';
-import ContactModalButton from './components/contact/contactModal/contactModalButton/contactModalButton';
-import ContactModal from './components/contact/contactModal/contactModal'
+import "./App.css";
+import MainContainer from "./sections/mainContainer/mainContainer";
+import Navbar from "./components/navbar/navbar";
+import Top from "./sections/top/top";
+import About from "./sections/about/about";
+import Projects from "./sections/projects/projects";
+import Skills from "./sections/skills/skills";
+import Contact from "./sections/contact/contact";
+import ContactFloater from "./components/contactFloater/contactFloater";
+import ContactModal from "./components/contactModal/contactModal";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Skills />
       <Contact />
 
-      <ContactModalButton/>
+      <ContactFloater />
       <ContactModal />
     </MainContainer>
   );

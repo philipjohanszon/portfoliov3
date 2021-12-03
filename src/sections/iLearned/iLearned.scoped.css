@@ -1,0 +1,23 @@
+.container {
+  min-height: 30vh;
+  width: 100vw;
+  background-color: #48d3ff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: white;
+  font-size: 3em;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.boxesContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

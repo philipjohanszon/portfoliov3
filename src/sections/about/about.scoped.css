@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.left {
+  width: 40vw;
+  height: 80vh;
+  float: left;
+}
+
+.left.background {
+  background-color: #b135fd;
+}
+
+.left.itemContainer {
+  border-top-right-radius: 50px;
+  background-color: white;
+}
+
+.right {
+  width: 60vw;
+  height: 80vh;
+  float: left;
+}
+
+.right.background {
+  background-color: white;
+}
+
+.right.itemContainer {
+  border-bottom-left-radius: 50px;
+  background-color: #b135fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right h3 {
+  color: white;
+  font-size: 3.5em;
+  width: 60%;
+  text-align: center;
+}

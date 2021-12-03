@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 60vh;
+}
+
+.infoBox {
+  float: left;
+  width: 50vw;
+}
+
+.featuredText {
+  color: #b135fd;
+  width: 45%;
+  font-size: 1.5em;
+  text-align: left !important;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.3em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2.featured {
+  width: 45%;
+  text-align: left !important;
+}
+
+hr {
+  width: 50%;
+}
+
+.description {
+  width: 45%;
+  font-size: 1.2em;
+  margin: 10px auto;
+  margin-bottom: 50px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 50vw;
+}

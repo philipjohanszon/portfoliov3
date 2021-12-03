@@ -1,0 +1,33 @@
+button {
+  display: block;
+  min-height: 40px;
+  min-width: 150px;
+  padding: 10px 25px;
+  transition: all 0.07s ease-in-out;
+  color: #48d3ff;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  border: 3px solid black;
+  box-shadow: 2px 2px 0px 1px black;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.purple {
+  color: #b135fd !important;
+}
+
+.rounded {
+  border-radius: 50px;
+  border: none;
+  box-shadow: none;
+  color: #b135fd;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+button:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}

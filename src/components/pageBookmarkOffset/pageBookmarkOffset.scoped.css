@@ -1,0 +1,5 @@
+span {
+  position: absolute;
+  /*For navbar to not offset the view when using bookmarks*/
+  top: -80px;
+}
