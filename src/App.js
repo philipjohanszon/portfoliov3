@@ -1,4 +1,3 @@
-import "./App.css";
 import MainContainer from "./sections/mainContainer/mainContainer";
 import Navbar from "./components/navbar/navbar";
 import Top from "./sections/top/top";

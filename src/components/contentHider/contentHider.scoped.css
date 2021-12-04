@@ -1,0 +1,33 @@
+.hider {
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hider > .top {
+    width: 100vw;
+    height: 70%;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,255,255, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px);
+}
+
+.hider > .bottom {
+    width: 100vw;
+    height: 30%;
+    background-color: white;
+}
+
+.viewMore {
+    font-size: 3em;
+    transition: all 0.1s;
+}
+
+.viewMore:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
